@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way to write your HTML code , that expand and mostly replace your usual method of using divs for everything. Using header navs and so on you obtain various benefits. 
+Your code will be easier to read and to maintain, while it will improve your SEO and permit to different algorithms to iterate through your code and “understand” what each part is supposed to communicate.
+For example Google algorithm will automatically detect an header, a navigation bar, an article an so on. 
+Or let’s think to a third party website that would like to grab an article on your website, to share it.
+With semantic HTML that would be pretty easy, said website needs just to grab all the content inside article section, and it’s done.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The first big difference is that any ‘display: block’  starts on a new line and take the whole width, while ‘display: inline’   stays on the same line of any other inline element  and just takes the width necessary to show the content. 
+Another big difference is that you can arrange the height of a block element, while for inline element your height is fixed.
 
 3. What are the 4 areas of the box model?
 
+Content – padding – border – margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axes.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a fabulous tool for developers. The common benefits are that your code will be safely stored on the cloud, and that you will be able to go back in time (through your commits) to find, for example,  the moment a bug was introduced in your code. 
+But this is not all. The ability to fork a repo and to create different branches permit to different developers to work at the same code simultaneously. It permits as well to develop new features or test new code without touching the master branch. It’s easy, once everything is tested out and works as intended, to merge it with the main branch again.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
