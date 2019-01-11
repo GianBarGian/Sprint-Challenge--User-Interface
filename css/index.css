@@ -229,11 +229,29 @@ footer nav a {
 	margin: 20px 0;
 	color: black;
 	text-decoration: none;
-	border-radius: 10px;
-    
+    border-radius: 10px;
+}
+
+.about-page .middle-content .card a:hover {
+    animation-name: anim;
+    animation-duration: 1s;
 }
 
 .about-page .bottom-content {
     display: block;
     margin-bottom: 30px;
 }
+
+@keyframes anim {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.2, 1.2, 1.2);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
