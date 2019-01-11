@@ -203,14 +203,15 @@ footer nav a {
 }
 
 .about-page .middle-content {
+     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border: 0;
 }
 
 .about-page .middle-content .card {
-    width: 48%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     margin: 20px 0;
