@@ -67,8 +67,82 @@ p {
 }
 
 .container {
-    width: 800px;
+    
+    max-width: 800px;
+    width: 1;
     margin: 0 auto;
+}
+
+@media(max-width: 500px) {
+    .container {
+        background: red;
+    }
+
+    .container header {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 350px;
+    }
+
+    .container header nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        
+    }
+
+    .container header a{
+        font-size: 3rem;
+        padding: 20px 0;
+    }
+
+   
+    .container header img {
+        width: 250px;  
+        
+    }
+
+    .container .text-container {
+        font-size: 1.3rem;
+    }
+
+    .container .text-container h2 {
+        font-size: 2rem;
+    }
+
+    .container .top-content {
+        flex-direction: column; 
+
+    }
+
+    .container .top-content .text-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .container .middle-content .boxes .box {
+        width: 44%;
+    }
+
+    .container .bottom-content {
+        flex-direction: column; 
+
+    }
+
+    .container .bottom-content .text-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+
+   
 }
 
 header {
@@ -80,7 +154,7 @@ header {
 }
 
 header nav {
-    width: 700px;
+    width: 87.5%;
     display: flex;
     justify-content: space-around;
 }
@@ -94,6 +168,8 @@ header nav a {
 
 
 .header-img {
+    margin: 0 auto;
+    width: 100%;
     padding-bottom: 20px;
 }
 
@@ -110,6 +186,7 @@ header nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -192,6 +269,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/*  */
 
 .about-page .top-content {
     display: block;
