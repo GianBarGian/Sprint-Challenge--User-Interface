@@ -74,10 +74,7 @@ p {
 }
 
 @media(max-width: 500px) {
-    .container {
-        background: red;
-    }
-
+    
     .container header {
         flex-direction: column;
         justify-content: space-evenly;
@@ -141,7 +138,10 @@ p {
         
     }
     
-
+    .container footer nav {
+        width: 100%;
+        justify-content: space-around;
+    }
    
 }
 
